@@ -3,6 +3,8 @@
 @import "tailwindcss/utilities";
 @import "input.css";
 @import "button.css";
+@import "sidebar.css";
+
 .flex::before,
 .flex::after {
     display: none !important;
