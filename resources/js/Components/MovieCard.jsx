@@ -29,7 +29,7 @@ export default function MovieCard({ name, category, thumbnail = "", slug }) {
             >
                 <img src="/icons/ic_play.svg" className="" width="50" alt="" />
             </div>
-            <a href={slug} className="inset-0 absolute z-50"></a>
+            <a href={route("prototype.movie.show",slug)} className="inset-0 absolute z-50"></a>
         </div>
     );
 }
